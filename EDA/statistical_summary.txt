@@ -1,0 +1,36 @@
+Dataset Shape: (20473, 12)
+
+Columns: ['reviewerID', 'asin', 'reviewerName', 'helpful', 'reviewText', 'overall', 'summary', 'unixReviewTime', 'reviewTime', 'review_length', 'helpful_ratio', 'review_date']
+
+Basic Statistics:
+            overall  unixReviewTime  review_length  helpful_ratio                    review_date
+count  20473.000000    2.047300e+04   20473.000000   20473.000000                          20473
+mean       4.471841    1.365018e+09     458.235872       0.278154  2013-04-03 19:37:09.140819712
+min        1.000000    1.121386e+09       0.000000       0.000000            2005-07-15 00:00:00
+25%        4.000000    1.354838e+09     163.000000       0.000000            2012-12-07 00:00:00
+50%        5.000000    1.373414e+09     275.000000       0.000000            2013-07-10 00:00:00
+75%        5.000000    1.390435e+09     525.000000       0.714286            2014-01-23 00:00:00
+max        5.000000    1.405901e+09   13301.000000       1.000000            2014-07-21 00:00:00
+std        0.940337    3.621266e+07     548.813015       0.421885                            NaN
+
+Unique Values per Column:
+reviewerID: 2928 unique values
+asin: 1835 unique values
+reviewerName: 2788 unique values
+reviewText: 20468 unique values
+overall: 5 unique values
+summary: 17225 unique values
+unixReviewTime: 1855 unique values
+reviewTime: 1855 unique values
+review_length: 2139 unique values
+helpful_ratio: 234 unique values
+review_date: 1855 unique values
+
+Top 5 Most Reviewed Products:
+                mean  count
+asin                       
+B000CITK8S  4.810651    169
+B007TG7HFO  4.500000    118
+B001V8U12M  4.792793    111
+B002BC4N5I  4.255556     90
+B002OUMVWY  4.548780     82
